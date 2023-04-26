@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Port Offset Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Port Offset Calculator</h1>
+        <form>
+            <label for="port">Port:</label>
+            <input type="number" id="port" name="port" value="8080" required>
+            <label for="offset">Offset:</label>
+            <input type="number" id="offset" name="offset" required>
+            <button type="button" onclick="calculateOffset()">Calculate</button>
+        </form>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
